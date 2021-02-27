@@ -4,6 +4,11 @@
     "require": {
         "php": ">=7.3"
     },
+    "autoload": {
+        "psr-4": {
+            "Kict\\HelpersLaravel\\": "src/"
+        }
+    },
     "license": "MIT",
     "minimum-stability": "dev",
     "prefer-stable": true,
