@@ -5,6 +5,8 @@
         "php": ">=7.3"
     },
     "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "authors": [
         {
             "name": "Ahmad Fazli Ismail",
