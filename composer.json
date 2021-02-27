@@ -1,0 +1,15 @@
+{
+    "name": "kict/helpers_laravel",
+    "description": "Basic helpers for Laravel application package developed by Konsortium ICT Pantai Timur (KICT).",
+    "type": "project",
+    "require": {
+        "php": ">=7.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ahmad Fazli Ismail",
+            "email": "fazli@cloud.org.my"
+        }
+    ]
+}
