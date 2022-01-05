@@ -13,6 +13,10 @@ if(!function_exists('maskSensitiveData')) {
         $request = request();
 
         foreach($request->post() as $key => $value) {
+			if(is_object($value) || is_array($value)) {
+                $value = json_encode($value);
+            }
+            
             if(in_array($key, $input)) {
                 $request->merge([
                     $key => str_repeat('*', strlen($value)),
